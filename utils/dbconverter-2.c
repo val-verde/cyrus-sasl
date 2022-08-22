@@ -200,7 +200,7 @@ int listusers(const char *path, listcb_t *cb)
 
 #include <db.h>
 
-#define DB_VERSION_FULL ((DB_VERSION_MAJOR << 24) | (DB_VERSION_MINOR << 16) | DB_VERSION_PATCH)
+#define DB_VERSION_FULL ((DB_VERSION_MAJOR << 24) | (DB_VERSION_MINOR << 16))
 /*
  * Open the database
  *

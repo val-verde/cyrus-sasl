@@ -53,7 +53,7 @@
 #include <errno.h>
 #include "sasldb.h"
 
-#define DB_VERSION_FULL ((DB_VERSION_MAJOR << 24) | (DB_VERSION_MINOR << 16) | DB_VERSION_PATCH)
+#define DB_VERSION_FULL ((DB_VERSION_MAJOR << 24) | (DB_VERSION_MINOR << 16))
 
 static int db_ok = 0;
 #if defined(KEEP_DB_OPEN)
